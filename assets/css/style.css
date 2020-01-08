@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "CustomFont";
+url("../fonts/Cagliostro-Regular.ttf") format("ttf"),
+}
+
+body {
+    margin: 0;
+    font-family: CustomFont, serif;
+    font-size: medium;
+    background: lightgray;
+    background-size: cover;
+}
+
+.page {
+    margin: 25px 50px 25px 50px;
+    padding: 30px 20px 30px 20px;
+    border-radius: 20px;
+    background: white;
+}
+
+/****** HEADER ******/
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: #efefef4d;
+    padding: 20px 0 70px 0;
+}
+
+    /**** Name Title ****/
+
+    .alexName {
+        display: flex;
+        flex-direction: row;
+        width: 48%;
+        margin: 5px 0 0 12px;
+    }
+
+        .alexName img {
+            width: 10%;
+        }
+
+        .alex {
+            font-weight: bold;
+        }
+
+    /**** Navigation Menu ****/
+
+    .navMenu{
+        display: flex;
+        flex-direction: row;
+        width: 48%;
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+        .navMenu a{
+            text-decoration: none;
+            color: #615f5f;
+            margin-right: 20px;
+        }
+            .navMenu a:hover{
+                color: #131313;
+            }
+
+    /**** Presentation Section ****/
+
+    .presentation {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .presentation img {
+            width: 300px;
+            border-radius: 50%;
+            height: 300PX;
+            border: 10px solid white;
+        }
+
+        .title {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            width: 35%;
+            margin-left: 40px;
+        }
+            .title a{
+                border: #2196F3 solid 3px;
+                border-radius: 25px;
+                padding: 10px;
+                text-align: center;
+                text-decoration: none;
+                color: black;
+                margin-top: 10px;
+            }
+                .title a:hover{
+                    background: white;
+                    font-weight: bold;
+                }
+
+            .title p{
+                margin-top: 0;
+            }
+
+/****** CONTAINER ******/
+
+.competences {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+    .competences article{
+        width: 48%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .java{
+        display: flex;
+        flex-direction: row;
+    }
+        .fa-pencil, .fa-laptop {
+            margin-top: 1.2em;
+            font-size: 2em;
+            color: #2196F3;
+        }
+
+        .java-article, .cpp-article, .agilite-article, .relation-article{
+            margin-left: 15px;
+        }
+
+    h3{
+        margin-top: 40px;
+    }
+
+h2{
+    margin-bottom: 0;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(45deg, #03A9F4 0 16%, lightgray 16% 100%);
+    border-image-slice: 1;
+    display: inline-block;
+}

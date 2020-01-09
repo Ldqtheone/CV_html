@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="assets/js/avis.js"></script>
+    <script src="assets/js/clients.js"></script>
     <title>CV Alex Smith</title>
 </head>
 <body>
@@ -82,34 +84,75 @@
         </section>
         <h2>Leurs avis</h2>
         <section class="avis">
-            <article class="avis1">
-                <img src="assets/images/1.jpeg" alt="Photo" class="img1">
-                <p>Quisque euismod pulvinar erat, Suspendisse iaculis massa a consequat facilisis. Vestibulum malesuada maximus ligula, at viverra mi facilisis in.</p>
-                <strong>Daniel Pringle</strong>
-                <p>Sagebrush</p>
-                <i class="fa fa-quote-right"></i>
-                <i class="fa fa-quote-left"></i>
-            </article>
-            <article class="avis2">
-                <img src="assets/images/2.jpeg" alt="Photo" class="img2">
-                <p>Suspendisse iaculis massa a consequat facilisis. Vestibulum malesuada maximus ligula, at viverra mi facilisis in.</p>
-                <strong>Billy Adams</strong>
-                <p>Rolling Thunder</p>
-                <i class="fa fa-quote-right"></i>
-                <i class="fa fa-quote-left"></i>
-            </article>
-            <!-- Barre de Slide -->
+            <div class="slide1 mySlides">
+                <article class="avis1">
+                    <img src="assets/images/1.jpeg" alt="Photo" class="img1">
+                    <div class="avisRelat">
+                        <i class="fa fa-quote-left"></i>
+                        <div>
+                            <p>Quisque euismod pulvinar massa a consequat facilisis. Vestibulum malesuada maximus ligula, at viverra mi facilisis in.</p>
+                            <strong>Daniel Pringle</strong>
+                            <p>Sagebrush</p>
+                        </div>
+                    </div>
+                    <i class="fa fa-quote-right"></i>
+                </article>
+                <article class="avis2">
+                    <img src="assets/images/2.jpeg" alt="Photo" class="img2">
+                    <div class="avisRelat">
+                        <i class="fa fa-quote-left"></i>
+                        <div>
+                            <p>Suspendisse iaculis massa a consequat facilisis. Vestibulum malesuada maximus ligula, at viverra mi facilisis in.</p>
+                            <strong>Billy Adams</strong>
+                            <p>Rolling Thunder</p>
+                        </div>
+                    </div>
+                    <i class="fa fa-quote-right"></i>
+                </article>
+            </div>
+            <div class="slide2 mySlides">
+                <article class="avis1">
+                    <img src="assets/images/3.jpeg" alt="Photo" class="img1">
+                    <div class="avisRelat">
+                        <i class="fa fa-quote-left"></i>
+                        <div>
+                            <p>Quisque euismod pulvinar massa a consequat facilisis. Vestibulum malesuada maximus ligula, at viverra mi facilisis in.</p>
+                            <strong>Joris Prington</strong>
+                            <p>Pontoise</p>
+                        </div>
+                    </div>
+                    <i class="fa fa-quote-right"></i>
+                </article>
+                <article class="avis2">
+                    <img src="assets/images/4.jpeg" alt="Photo" class="img2">
+                    <div class="avisRelat">
+                        <i class="fa fa-quote-left"></i>
+                        <div>
+                            <p>Suspendisse iaculis massa a consequat facilisis. Vestibulum malesuada maximus ligula, at viverra mi facilisis in.</p>
+                            <strong>Coco le bienheureux</strong>
+                            <p>Coding Factory</p>
+                        </div>
+                    </div>
+                    <i class="fa fa-quote-right"></i>
+                </article>
+            </div>
+            <div class="avisBugttons">
+                <button class="w3-button w3-display-left" onclick="plusDivs(-1)"></button>
+                <button class="w3-button w3-display-right" onclick="plusDivs(+1)"></button>
+            </div>
         </section>
         <h2>Clients</h2>
         <section class="clients">
-            <article class="client1">
-            </article>
-            <article class="client2"></article>
-            <article class="client3"></article>
-            <article class="client4"></article>
-            <article class="client5"></article>
-            <article class="client6"></article>
-            <!-- Barre de Slide -->
+            <div class="clientSlide client1">
+                <img src="">
+            </div>
+            <div class="clientSlide client2">
+                <img src="">
+            </div>
+            <div class="avisBugttons">
+                <button class="w3-button w3-display-left" onclick="plusClients(-1)"></button>
+                <button class="w3-button w3-display-right" onclick="plusClients(+1)"></button>
+            </div>
         </section>
         <h2>Histoires vraies</h2>
         <section class="stories">

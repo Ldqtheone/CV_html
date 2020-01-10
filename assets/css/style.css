@@ -168,6 +168,16 @@ margin-left: 2%;
     flex-direction: column;
     margin-left: 2%;
 }
+/*--Clients--*/
+#clients{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+/*--Histoires Vraies--*/
+
+
+
 
 /*--Footer--*/
 #footer{
